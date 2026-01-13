@@ -11,6 +11,30 @@
 
 # Virtual environment
 venv/
+env/
 
 # Environment variables
 .env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+.vite/
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
